@@ -6,9 +6,10 @@ import Image from "next/image";
 import { useState, MouseEvent } from "react";
 import { FETCH_BOARDS, DELETE_BOARD } from "components/queries";
 import { useRouter } from "next/navigation";
+import deleteImage from "@assets/delete.png";
 const IMAGE_SRC = {
   deleteImage: {
-    src: require("@assets/delete.png"),
+    src: deleteImage,
     alt: "삭제버튼",
   },
 };

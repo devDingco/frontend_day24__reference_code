@@ -9,10 +9,11 @@ import {
   나의그래프큐엘셋팅,
   UPDATE_BOARD,
 } from "components/queries";
+import addImage from "@assets/add_image.png";
 
 const IMAGE_SRC = {
   addImage: {
-    src: require("@assets/add_image.png"),
+    src: addImage,
     alt: "사진추가이미지",
   },
 };
